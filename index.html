@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Potfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/670ad99c1d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo"><span class="vai">Vaish</span>navi.</h1>
+          <u1 id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </u1>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer.</p>
+          <h1>Hi, I'm<span>  Vaishnavi  </span><br>from Bangalore</h1>
+        </div>
+      </div>
+    </div>
+<!---------About--------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/about.jpg">
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A Frontend Web Developer building the Frontend of <br>Websites and Web Applications that leads to the<br> success of the overall product. Also strong in<br> design and integration with intuitive problem-solving skills.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML & CSS</span><br>Designing web Apps</li>
+                <li><span>Bootstrap</span><br></li>
+                <li><span>Javascript</span><br>Creating a responsive Website</li>
+                <li><span>Wordpress</span><br></li>
+                <li><span>Java</span><br></li>
+                <li><span>MySQL</span><br></li>
+                <li><span>Git & GitHub</span><br></li>
+                <li><span>VScode</span><br></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Quality Engineer Intern at Cognizant</span><br>Create, Enhance, Debug and run test cases and perform different types of testing.</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>B.E graduate</span><br>I've completed my B.E from CMRIT,Bangalore with 7.53CGPA in Electrical and Electronics Engineering.</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!------------Projects------------>
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+      <div class="projects-list">
+        <div>
+          <h2>TubeView - YouTube Clone</h2>
+          <p>I played a pivotel role in the development of TubeView, a YouTube clone that revolutionizes the way users engage with video content.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Amazon Clone - E-Commerce Platform</h2>
+          <p>I made significant contributions to the development of amazon clone, a cutting-edge e-commerce platform that revolutionizes online shopping experiences.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Rock Paper Scissorrs Game</h2>
+          <p>As part of my software development experience, I played a key role in designing and developing a Rock Paper Scissors game, showcasing my coding and creating interactive experiences.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Calculator Application</h2>
+          <p>The Calculator application offers a user-friendly interface and accurate calculations to meet users mathematical needs.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Digital Clock Application</h2>
+          <p>The digital clock application offers a sleek and intuitive interface, accurately displaying time and providing essential time-related functionalities.</p>
+          <a href="#">Learn more</a>
+        </div>
+      
+  </div>
+</div>
+<!-----------activities----------->
+<div id="activities">
+  <div class="container">
+    <h1 class="sub-title">Activities</h1>
+    <div class="worl-list">
+      <div class="work">
+        <img src="image/teaching2.jpeg">
+        <div class="layer">
+          <h3>Teaching volunteer</h3>
+          <p>
+            I always loved to teach children, thats how i started taking tuitions to them with a minimum fee.
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/yoga.jpeg">
+        <div class="layer">
+          <h3>Yoga enthusiast</h3>
+          <p>
+            Participated on International Yoga Day and practiced 108 Surya Namaskars for the past 2 years.
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="image/swachh.jpeg">
+        <div class="layer">
+          <h3>ENSAV club member</h3>
+          <p>
+            Was a part of ENSAV club and CMCA initiative for "Swachh Bharat" in a locality.
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-----------contact-------------->
+<div id="contact">
+  <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i>vaishuk38@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i>+91 8971632182</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/vaishnavi-k-9925a21b8"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Vaishnavi362000"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/why._.shuuu/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="Vaishnavi.K Resume.pdf" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+  </div>
+</div>
+
+  <script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuO-wDOi2pMSuuG66HwA92XqmA4OatryDu90k3RbrttxvRG6d7XgND2acebGJbuCxkbA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML="Message sent succesfully"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },4000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+</html>
