@@ -317,7 +317,7 @@ form input,form textarea{
 nav .fas{
   display: none;
 }
-@media only screen and (max-width:300px){
+@media only screen and (max-width:1000px){
   #header{
     background-image: url(image/p3.png);
   }
