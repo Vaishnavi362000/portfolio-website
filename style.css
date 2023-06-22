@@ -319,14 +319,14 @@ nav .fas{
 }
 @media only screen and (max-width:1000px){
   #header{
-    background-image: url(image/p3.png);
+    background-image: url(image/p5.png);
   }
   .header-text{
     margin-top: 100%;
-    font-size: 20px;
+    font-size: 40px;
   }
   .header-text h1{
-    font-size: 40px;
+    font-size: 60px;
   }
   nav .fas{
     display: block;
